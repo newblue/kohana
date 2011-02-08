@@ -64,7 +64,7 @@ I18n::lang('en-us');
 if (getenv('KOHANA_ENV') !== FALSE)
 {
 	Kohana::$environment = constant('Kohana::'.strtoupper(getenv('KOHANA_ENV')));
-}
+} 
 
 /**
  * Initialize Kohana, setting the default options.
@@ -79,9 +79,24 @@ if (getenv('KOHANA_ENV') !== FALSE)
  * - boolean  profile     enable or disable internal profiling               TRUE
  * - boolean  caching     enable or disable internal caching                 FALSE
  */
-Kohana::init(array(
-	'base_url'   => '/',
-));
+$settings = array('base_url' => '/', 'index_file' => FALSE);
+
+switch (Kohana::$environment) {
+    case 'production':
+        $settings += array(
+                            'profiling' => TRUE,
+                            'caching' => FALSE
+                            );
+        break;
+    default:
+        $settings += array(
+                            'profiling' => FALSE,
+                            'caching' => TRUE,
+                            'errors' => TRUE,
+                            );
+        break;
+  }
+Kohana::init($settings);
 
 /**
  * Attach the file write to logging. Multiple writers are supported.
@@ -116,3 +131,43 @@ Route::set('default', '(<controller>(/<action>(/<id>)))')
 		'controller' => 'welcome',
 		'action'     => 'index',
 	));
+
+$request = Request::instance($_SERVER['PATH_INFO']);
+
+try
+{
+    $request->execute();
+}
+catch (Exception $e)
+{
+    if ( Kohana::$environment == 'development' )
+    {
+        throw $e;
+    }
+
+    Kohana::$log->add(Kohana::ERROR, Kohana::exception_text($e));
+
+    $request->status = 404;
+    try {
+        $request->response = View::factory('template')
+            ->set('title', '404')
+            ->set('content', View::factory('errors/404'));
+    } 
+    catch (Exception $e)
+    {
+        $request->response = 'Not Found';
+    }
+}
+
+if ($request->send_headers()->response)
+{
+    $total = array(
+            '{memory_usage}' => 
+                number_format((memory_get_peak_usage() - KOHANA_START_MEMORY) / 1024, 2).'KB',
+            '{execution_time}' => 
+                number_format(microtime(TRUE) - KOHANA_START_TIME, 5).' seconds');
+
+    $request->response = str_replace(array_keys($total), $total, $request->response);
+}
+
+echo $request->response;
