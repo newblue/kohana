@@ -1,27 +1,801 @@
-[submodule "system"]
-	path = system
-	url = http://github.com/kohana/core.git
 [submodule "modules/codebench"]
 	path = modules/codebench
-	url = http://github.com/kohana/codebench.git
+	url = git://github.com/kohana/codebench.git
 [submodule "modules/database"]
 	path = modules/database
-	url = http://github.com/kohana/database.git
+	url = git://github.com/kohana/database.git
 [submodule "modules/image"]
 	path = modules/image
-	url = http://github.com/kohana/image.git
-[submodule "modules/orm"]
-	path = modules/orm
-	url = http://github.com/kohana/orm.git
+	url = git://github.com/kohana/image.git
+[submodule "modules/pagination"]
+	path = modules/pagination
+	url = git://github.com/kohana/pagination.git
 [submodule "modules/auth"]
 	path = modules/auth
-	url = http://github.com/kohana/auth.git
+	url = git://github.com/kohana/auth.git
 [submodule "modules/userguide"]
 	path = modules/userguide
-	url = http://github.com/kohana/userguide.git
+	url = git://github.com/kohana/userguide.git
+[submodule "sprig-auth"]
+	path = sprig-auth
+	url = git://github.com/banks/sprig-auth.git
+[submodule "modules/a1"]
+	path = modules/a1
+	url = git://github.com/Wouterrr/A1.git
+[submodule "modules/a2"]
+	path = modules/a2
+	url = git://github.com/Wouterrr/A2.git
+[submodule "modules/acl"]
+	path = modules/acl
+	url = git://github.com/Wouterrr/ACL.git
+[submodule "modules/sprig-auth"]
+	path = modules/sprig-auth
+	url = git://github.com/banks/sprig-auth.git
+[submodule "modules/mangodb"]
+	path = modules/mangodb
+	url = git://github.com/Wouterrr/MangoDB.git
+[submodule "modules/shindig"]
+	path = modules/shindig
+	url = git://github.com/kerkness/shindig.git
+[submodule "modules/authlite"]
+	path = modules/authlite
+	url = git://github.com/fredwu/authlite.git
+[submodule "modules/sprig-mptt"]
+	path = modules/sprig-mptt
+	url = git://github.com/banks/sprig-mptt.git
+[submodule "modules/captcha"]
+	path = modules/captcha
+	url = git://github.com/kolanos/kohana-captcha.git
+[submodule "modules/email"]
+	path = modules/email
+	url = git://github.com/banks/kohana-email.git
 [submodule "modules/cache"]
 	path = modules/cache
-	url = http://github.com/kohana/cache.git
+	url = git://github.com/samsoir/kohana-cache.git
 [submodule "modules/unittest"]
 	path = modules/unittest
-	url = http://github.com/kohana/unittest.git
+	url = git://github.com/kohana/unittest.git
+[submodule "modules/paypal"]
+	path = modules/paypal
+	url = git://github.com/shadowhand/paypal.git
+[submodule "modules/event"]
+	path = modules/event
+	url = git://github.com/ollym/event.git
+[submodule "modules/daemon"]
+	path = modules/daemon
+	url = git://github.com/ollym/daemon.git
+[submodule "modules/migration"]
+	path = modules/migration
+	url = git://github.com/ollym/migration.git
+[submodule "modules/dbforge"]
+	path = modules/dbforge
+	url = git://github.com/ollym/dbforge.git
+[submodule "modules/dispatcher"]
+	path = modules/dispatcher
+	url = git://github.com/BRMatt/Kohana-Dispatcher.git
+[submodule "modules/table"]
+	path = modules/table
+	url = git://github.com/kerkness/kohana-table.git
+[submodule "modules/twitter"]
+	path = modules/twitter
+	url = git://github.com/transphorm/twitter.git
+[submodule "modules/gravatar"]
+	path = modules/gravatar
+	url = git://github.com/samsoir/kohana-gravatar.git
+[submodule "modules/task-queue"]
+	path = modules/task-queue
+	url = git://github.com/jonnyjon/Task-Queue.git
+[submodule "modules/gui"]
+	path = modules/gui
+	url = git://github.com/kerkness/gui.git
+[submodule "modules/todoist"]
+	path = modules/todoist
+	url = git://github.com/shadowhand/kohana-todoist.git
+[submodule "modules/pdfview"]
+	path = modules/pdfview
+	url = git://github.com/shadowhand/pdfview.git
+[submodule "modules/tim"]
+	path = modules/tim
+	url = git://github.com/Xobb/TIM-for-kohana-3.git
+[submodule "modules/aacl"]
+	path = modules/aacl
+	url = git://github.com/banks/aacl.git
+[submodule "modules/gcheckout"]
+	path = modules/gcheckout
+	url = git://github.com/shadowhand/gcheckout.git
+[submodule "modules/akismet"]
+	path = modules/akismet
+	url = git://github.com/Greenek/kohana3-akismet.git
+[submodule "modules/console"]
+	path = modules/console
+	url = git://github.com/daveWid/console.git
+[submodule "modules/super-cache"]
+	path = modules/super-cache
+	url = git://github.com/FerumFlex/kohana-super-cache.git
+[submodule "modules/cron"]
+	path = modules/cron
+	url = git://github.com/cbandy/kohana-cron.git
+[submodule "modules/twig"]
+	path = modules/twig
+	url = git://github.com/icyleaf/twig.git
+[submodule "modules/smarty"]
+	path = modules/smarty
+	url = git://github.com/MrAnchovy/kohana-module-smarty.git
+[submodule "modules/wordpress"]
+	path = modules/wordpress
+	url = git://github.com/kerkness/wordpress-for-kohana.git
+[submodule "modules/slicehost"]
+	path = modules/slicehost
+	url = git://github.com/transphorm/slicehost.git
+[submodule "modules/devilities"]
+	path = modules/devilities
+	url = git://github.com/BRMatt/Devilities.git
+[submodule "modules/dom-query"]
+	path = modules/dom-query
+	url = git://github.com/samsoir/kohana-dom-query.git
+[submodule "modules/date"]
+	path = modules/date
+	url = git://github.com/BRMatt/kohana-date.git
+[submodule "modules/firephp"]
+	path = modules/firephp
+	url = git://github.com/pedrosland/kohana-firephp.git
+[submodule "modules/asset"]
+	path = modules/asset
+	url = git://github.com/jonathangeiger/kohana-asset.git
+[submodule "modules/github"]
+	path = modules/github
+	url = git://github.com/transphorm/github.git
+[submodule "modules/event2"]
+	path = modules/event2
+	url = git://github.com/Zeelot/event.git
+[submodule "modules/mangoqueue"]
+	path = modules/mangoqueue
+	url = git://github.com/Wouterrr/mangoQueue.git
+[submodule "modules/flashdatanator"]
+	path = modules/flashdatanator
+	url = git://github.com/dyson/flashdatanator.git
+[submodule "modules/mangodemo"]
+	path = modules/mangodemo
+	url = git://github.com/Wouterrr/MangoDemo.git
+[submodule "modules/mangoutils"]
+	path = modules/mangoutils
+	url = git://github.com/Wouterrr/MangoUtils.git
+[submodule "modules/calais"]
+	path = modules/calais
+	url = git://github.com/kolanos/kohana-calais.git
+[submodule "modules/sphinx"]
+	path = modules/sphinx
+	url = git://github.com/Zoxive/SphinxKohana.git
+[submodule "modules/message"]
+	path = modules/message
+	url = git://github.com/daveWid/message.git
+[submodule "modules/jelly"]
+	path = modules/jelly
+	url = git://github.com/jonathangeiger/kohana-jelly.git
+[submodule "modules/kohanut"]
+	path = modules/kohanut
+	url = git://github.com/bluehawk/kohanut-core.git
+[submodule "modules/sprig-banks"]
+	path = modules/sprig-banks
+	url = git://github.com/banks/sprig.git
+[submodule "modules/orm"]
+	path = modules/orm
+	url = git://github.com/kohana/orm.git
+[submodule "modules/b8"]
+	path = modules/b8
+	url = git://github.com/stensi/Kohana-B8.git
+[submodule "modules/debug-toolbar"]
+	path = modules/debug-toolbar
+	url = git://github.com/biakaveron/debug-toolbar.git
+[submodule "modules/editor"]
+	path = modules/editor
+	url = git://github.com/biakaveron/editor.git
+[submodule "modules/archive"]
+	path = modules/archive
+	url = git://github.com/BRMatt/kohana-archive.git
+[submodule "modules/minify"]
+	path = modules/minify
+	url = git://github.com/zazu/minify.git
+[submodule "modules/bamboo"]
+	path = modules/bamboo
+	url = git://github.com/vitch/bamboo.git
+[submodule "modules/tags"]
+	path = modules/tags
+	url = git://github.com/glydetech/ko3.tags.git
+[submodule "modules/geocode"]
+	path = modules/geocode
+	url = git://github.com/kolanos/kohana-geocode.git
+[submodule "modules/seo"]
+	path = modules/seo
+	url = git://github.com/glamorous/kohana-seo.git
+[submodule "modules/kohaml"]
+	path = modules/kohaml
+	url = git://github.com/transphorm/kohaml.git
+[submodule "modules/csrf"]
+	path = modules/csrf
+	url = git://github.com/synapsestudios/kohana-csrf.git
+[submodule "modules/errors"]
+	path = modules/errors
+	url = git://github.com/synapsestudios/kohana-errors.git
+[submodule "modules/notices"]
+	path = modules/notices
+	url = git://github.com/synapsestudios/kohana-notices.git
+[submodule "modules/langify"]
+	path = modules/langify
+	url = git://github.com/hinton/langify.git
+[submodule "modules/debug"]
+	path = modules/debug
+	url = git://github.com/synapsestudios/kohana-debug.git
+[submodule "modules/ipsum"]
+	path = modules/ipsum
+	url = git://github.com/synapsestudios/kohana-ipsum.git
+[submodule "modules/xml"]
+	path = modules/xml
+	url = git://github.com/ccazette/Kohana_XML.git
+[submodule "modules/xdatabase"]
+	path = modules/xdatabase
+	url = git://github.com/approots/xdatabase.git
+[submodule "modules/cdm"]
+	path = modules/cdm
+	url = git://github.com/jylinman/kohana-cdm.git
+[submodule "modules/ajax"]
+	path = modules/ajax
+	url = git://github.com/28litres/ajax.git
+[submodule "modules/aws"]
+	path = modules/aws
+	url = git://github.com/jylinman/kohana-aws.git
+[submodule "modules/amfphp"]
+	path = modules/amfphp
+	url = git://github.com/jylinman/kohana-amfphp.git
+[submodule "modules/grid"]
+	path = modules/grid
+	url = git://github.com/vimofthevine/grid.git
+[submodule "modules/sentry"]
+	path = modules/sentry
+	url = git://github.com/vimofthevine/sentry.git
+[submodule "modules/dbnav"]
+	path = modules/dbnav
+	url = git://github.com/tayles/kohana-dbnav.git
+[submodule "modules/versioned"]
+	path = modules/versioned
+	url = git://github.com/vimofthevine/versioned.git
+[submodule "modules/layout"]
+	path = modules/layout
+	url = git://github.com/marcalj/kohana-layout.git
+[submodule "modules/oauth"]
+	path = modules/oauth
+	url = git://github.com/kohana/oauth.git
+[submodule "modules/circuit-breaker"]
+	path = modules/circuit-breaker
+	url = git://github.com/samsoir/kohana-circuit-breaker.git
+[submodule "modules/thumbler"]
+	path = modules/thumbler
+	url = git://github.com/homm/thumbler.git
+[submodule "modules/plater"]
+	path = modules/plater
+	url = git://github.com/homm/plater.git
+[submodule "modules/stacks"]
+	path = modules/stacks
+	url = git://github.com/ahutchings/kohana-stacks.git
+[submodule "modules/notify"]
+	path = modules/notify
+	url = git://github.com/kaltar/Notify.git
+[submodule "modules/geshi"]
+	path = modules/geshi
+	url = git://github.com/JustLikeIcarus/kohana-geshi.git
+[submodule "modules/less"]
+	path = modules/less
+	url = git://github.com/mongeslani/kohana-less.git
+[submodule "modules/calendar"]
+	path = modules/calendar
+	url = git://github.com/samwilson/kohana_calendar.git
+[submodule "modules/webdb"]
+	path = modules/webdb
+	url = git://github.com/samwilson/kohana_webdb.git
+[submodule "modules/stache"]
+	path = modules/stache
+	url = git://github.com/zombor/KOstache.git
+[submodule "modules/sitemap"]
+	path = modules/sitemap
+	url = git://github.com/ThePixelDeveloper/kohana-sitemap.git
+[submodule "modules/mailer"]
+	path = modules/mailer
+	url = git://github.com/themusicman/Mailer.git
+[submodule "modules/validation"]
+	path = modules/validation
+	url = git://github.com/themusicman/Validation.git
+[submodule "modules/purifier"]
+	path = modules/purifier
+	url = git://github.com/shadowhand/purifier.git
+[submodule "modules/database-mssql"]
+	path = modules/database-mssql
+	url = git://github.com/xrado/kohana-mssql.git
+[submodule "modules/formo"]
+	path = modules/formo
+	url = git://github.com/bmidget/kohana-formo.git
+[submodule "modules/mongodb-odm"]
+	path = modules/mongodb-odm
+	url = git://github.com/colinmollenhour/mongodb-php-odm.git
+[submodule "modules/rbac"]
+	path = modules/rbac
+	url = git://github.com/lzyy/kohana-rbac.git
+[submodule "modules/jelly-mptt"]
+	path = modules/jelly-mptt
+	url = git://github.com/AlexKupreev/jelly-mptt.git
+[submodule "modules/auto-modeler"]
+	path = modules/auto-modeler
+	url = git://github.com/zombor/Auto-Modeler.git
+[submodule "modules/vk"]
+	path = modules/vk
+	url = git://github.com/Slaver/vk.git
+[submodule "modules/webclient"]
+	path = modules/webclient
+	url = git://github.com/SyrusAkbary/Webclient-Kohana.git
+[submodule "modules/cassandra"]
+	path = modules/cassandra
+	url = git://github.com/jylinman/kohana-cdm.git
+[submodule "modules/database-postgresql"]
+	path = modules/database-postgresql
+	url = git://github.com/cbandy/kohana-postgresql.git
+[submodule "modules/pngtext"]
+	path = modules/pngtext
+	url = git://github.com/jheathco/kohana-pngtext.git
+[submodule "modules/orm-mptt"]
+	path = modules/orm-mptt
+	url = git://github.com/evopix/orm-mptt.git
+[submodule "modules/jelly-formo"]
+	path = modules/jelly-formo
+	url = git://github.com/bmidget/kohana-formo-jelly.git
+[submodule "modules/orm-form"]
+	path = modules/orm-form
+	url = git://github.com/Azuka/Kohana-ORMForm.git
+[submodule "modules/breadcrumbs"]
+	path = modules/breadcrumbs
+	url = git://github.com/kierangraham/breadcrumbs.git
+[submodule "modules/media"]
+	path = modules/media
+	url = git://github.com/azampagl/kohana-media.git
+[submodule "modules/geoip3"]
+	path = modules/geoip3
+	url = git://github.com/ryross/geoip3.git
+[submodule "modules/sprig-versioned"]
+	path = modules/sprig-versioned
+	url = git://github.com/vimofthevine/versioned.git
+[submodule "modules/gmaps"]
+	path = modules/gmaps
+	url = git://github.com/guillermin/gmaps.git
+[submodule "modules/phamlp"]
+	path = modules/phamlp
+	url = git://github.com/fredwu/kohana-phamlp.git
+[submodule "modules/storage"]
+	path = modules/storage
+	url = git://github.com/cbandy/kohana-storage.git
+[submodule "modules/log"]
+	path = modules/log
+	url = git://github.com/lzyy/kohana-log.git
+[submodule "modules/jelly-torn"]
+	path = modules/jelly-torn
+	url = git://github.com/TdroL/kohana-jelly-torn.git
+[submodule "modules/gtasks"]
+	path = modules/gtasks
+	url = git://github.com/ahutchings/kohana-gtasks.git
+[submodule "modules/solr"]
+	path = modules/solr
+	url = git://github.com/Zoxive/Kohana-Solr.git
+[submodule "modules/charts"]
+	path = modules/charts
+	url = git://github.com/ae0000/kohana-charts.git
+[submodule "modules/search"]
+	path = modules/search
+	url = git://github.com/evopix/kohana-search.git
+[submodule "modules/konsole"]
+	path = modules/konsole
+	url = git://github.com/icyleaf/konsole.git
+[submodule "modules/affiliate"]
+	path = modules/affiliate
+	url = git://github.com/jeremeamia/kohana-affiliate.git
+[submodule "modules/blog"]
+	path = modules/blog
+	url = git://github.com/vimofthevine/kohana-blog.git
+[submodule "modules/dbmanager"]
+	path = modules/dbmanager
+	url = git://github.com/icyleaf/dbmanager.git
+[submodule "system"]
+	path = system
+	url = git://github.com/kohana/core.git
+[submodule "modules/yform"]
+	path = modules/yform
+	url = git://github.com/synapsestudios/kohana-yform.git
+[submodule "modules/zend"]
+	path = modules/zend
+	url = git://github.com/kolanos/kohana-zend.git
+[submodule "modules/jelly-filtered"]
+	path = modules/jelly-filtered
+	url = git://github.com/leth/jelly-filtered.git
+[submodule "modules/facebook"]
+	path = modules/facebook
+	url = git://github.com/zombor/Kohana-Facebook.git
+[submodule "modules/throttler"]
+	path = modules/throttler
+	url = git://github.com/fredwu/kthrottler.git
+[submodule "modules/depends"]
+	path = modules/depends
+	url = git://github.com/slik/Kohana-depends.git
+[submodule "modules/codegen"]
+	path = modules/codegen
+	url = git://github.com/Yahasana/Kohana-Codegen.git
+[submodule "modules/hive"]
+	path = modules/hive
+	url = git://github.com/shadowhand/hive.git
+[submodule "modules/sprig"]
+	path = modules/sprig
+	url = git://github.com/banks/sprig.git
+[submodule "modules/jelly-auth"]
+	path = modules/jelly-auth
+	url = git://github.com/raeldc/jelly-auth.git
+[submodule "modules/xhtml"]
+	path = modules/xhtml
+	url = git://github.com/glydetech/ko3.xhtml.git
+[submodule "modules/facebook2"]
+	path = modules/facebook2
+	url = git://github.com/jeremyf76/kohana-facebook.git
+[submodule "modules/jelly-form"]
+	path = modules/jelly-form
+	url = git://github.com/mintbridge/jellyform.git
+[submodule "modules/multiformat"]
+	path = modules/multiformat
+	url = git://github.com/Lowgain/kohana_multiformat.git
+[submodule "modules/kogit"]
+	path = modules/kogit
+	url = git://github.com/birkir/kogit.git
+[submodule "modules/pigeon"]
+	path = modules/pigeon
+	url = git://github.com/loonies/kohana-pigeon.git
+[submodule "modules/notice"]
+	path = modules/notice
+	url = git://github.com/loonies/kohana-notice.git
+[submodule "modules/kocrud"]
+	path = modules/kocrud
+	url = git://github.com/birkir/kocrud.git
+[submodule "modules/koview"]
+	path = modules/koview
+	url = git://github.com/birkir/koview.git
+[submodule "modules/konilla"]
+	path = modules/konilla
+	url = git://github.com/birkir/konilla.git
+[submodule "modules/log-database"]
+	path = modules/log-database
+	url = git://github.com/b263/kohana-dblog.git
+[submodule "modules/oauth20"]
+	path = modules/oauth20
+	url = git://github.com/Yahasana/OAuth-2.0.git
+[submodule "modules/real-database"]
+	path = modules/real-database
+	url = git://github.com/cbandy/real-database.git
+[submodule "modules/oauth2"]
+	path = modules/oauth2
+	url = git://github.com/kohana/oauth.git
+[submodule "modules/minify2"]
+	path = modules/minify2
+	url = git://github.com/gahgneh/minify-kohana.git
+[submodule "modules/flickr"]
+	path = modules/flickr
+	url = git://github.com/jeanmask/flickr.git
+[submodule "modules/admin"]
+	path = modules/admin
+	url = git://github.com/vimofthevine/kohana-admin.git
+[submodule "modules/azimauth"]
+	path = modules/azimauth
+	url = git://github.com/tommusic/Kohana-Azimauth.git
+[submodule "modules/kohana-curl-library"]
+	path = modules/kohana-curl-library
+	url = git://github.com/ninjapenguin/kohana-curl-library.git
+[submodule "modules/kohana-curl"]
+	path = modules/kohana-curl
+	url = git://github.com/AlexKupreev/kohana-curl.git
+[submodule "modules/douban"]
+	path = modules/douban
+	url = git://github.com/icyleaf/douban.git
+[submodule "modules/kohana-twig"]
+	path = modules/kohana-twig
+	url = git://github.com/jheathco/kohana-twig.git
+[submodule "modules/userguide-cn"]
+	path = modules/userguide-cn
+	url = git://github.com/KohanaCN/userguide-cn.git
+[submodule "modules/icyleaf.twig"]
+	path = modules/icyleaf.twig
+	url = git://github.com/icyleaf/twig.git
+[submodule "modules/totalfinder-i18n"]
+	path = modules/totalfinder-i18n
+	url = git://github.com/icyleaf/totalfinder-i18n.git
+[submodule "modules/A1"]
+	path = modules/A1
+	url = git://github.com/Wouterrr/A1.git
+[submodule "modules/A2"]
+	path = modules/A2
+	url = git://github.com/Wouterrr/A2.git
+[submodule "modules/ACL"]
+	path = modules/ACL
+	url = git://github.com/Wouterrr/ACL.git
+[submodule "modules/MangoDB"]
+	path = modules/MangoDB
+	url = git://github.com/Wouterrr/MangoDB.git
+[submodule "modules/kohana-captcha"]
+	path = modules/kohana-captcha
+	url = git://github.com/kolanos/kohana-captcha.git
+[submodule "modules/kohana-email"]
+	path = modules/kohana-email
+	url = git://github.com/banks/kohana-email.git
+[submodule "modules/kohana-cache"]
+	path = modules/kohana-cache
+	url = git://github.com/samsoir/kohana-cache.git
+[submodule "modules/Kohana-Dispatcher"]
+	path = modules/Kohana-Dispatcher
+	url = git://github.com/BRMatt/Kohana-Dispatcher.git
+[submodule "modules/kohana-table"]
+	path = modules/kohana-table
+	url = git://github.com/kerkness/kohana-table.git
+[submodule "modules/kohana-gravatar"]
+	path = modules/kohana-gravatar
+	url = git://github.com/samsoir/kohana-gravatar.git
+[submodule "modules/Task-Queue"]
+	path = modules/Task-Queue
+	url = git://github.com/jonnyjon/Task-Queue.git
+[submodule "modules/kohana-todoist"]
+	path = modules/kohana-todoist
+	url = git://github.com/shadowhand/kohana-todoist.git
+[submodule "modules/TIM-for-kohana-3"]
+	path = modules/TIM-for-kohana-3
+	url = git://github.com/Xobb/TIM-for-kohana-3.git
+[submodule "modules/kohana3-akismet"]
+	path = modules/kohana3-akismet
+	url = git://github.com/Greenek/kohana3-akismet.git
+[submodule "modules/kohana-super-cache"]
+	path = modules/kohana-super-cache
+	url = git://github.com/FerumFlex/kohana-super-cache.git
+[submodule "modules/kohana-cron"]
+	path = modules/kohana-cron
+	url = git://github.com/cbandy/kohana-cron.git
+[submodule "modules/kohana-module-smarty"]
+	path = modules/kohana-module-smarty
+	url = git://github.com/MrAnchovy/kohana-module-smarty.git
+[submodule "modules/wordpress-for-kohana"]
+	path = modules/wordpress-for-kohana
+	url = git://github.com/kerkness/wordpress-for-kohana.git
+[submodule "modules/Devilities"]
+	path = modules/Devilities
+	url = git://github.com/BRMatt/Devilities.git
+[submodule "modules/kohana-dom-query"]
+	path = modules/kohana-dom-query
+	url = git://github.com/samsoir/kohana-dom-query.git
+[submodule "modules/kohana-date"]
+	path = modules/kohana-date
+	url = git://github.com/BRMatt/kohana-date.git
+[submodule "modules/kohana-firephp"]
+	path = modules/kohana-firephp
+	url = git://github.com/pedrosland/kohana-firephp.git
+[submodule "modules/kohana-asset"]
+	path = modules/kohana-asset
+	url = git://github.com/jonathangeiger/kohana-asset.git
+[submodule "modules/mangoQueue"]
+	path = modules/mangoQueue
+	url = git://github.com/Wouterrr/mangoQueue.git
+[submodule "modules/MangoDemo"]
+	path = modules/MangoDemo
+	url = git://github.com/Wouterrr/MangoDemo.git
+[submodule "modules/MangoUtils"]
+	path = modules/MangoUtils
+	url = git://github.com/Wouterrr/MangoUtils.git
+[submodule "modules/kohana-calais"]
+	path = modules/kohana-calais
+	url = git://github.com/kolanos/kohana-calais.git
+[submodule "modules/SphinxKohana"]
+	path = modules/SphinxKohana
+	url = git://github.com/Zoxive/SphinxKohana.git
+[submodule "modules/kohana-jelly"]
+	path = modules/kohana-jelly
+	url = git://github.com/jonathangeiger/kohana-jelly.git
+[submodule "modules/kohanut-core"]
+	path = modules/kohanut-core
+	url = git://github.com/bluehawk/kohanut-core.git
+[submodule "modules/Kohana-B8"]
+	path = modules/Kohana-B8
+	url = git://github.com/stensi/Kohana-B8.git
+[submodule "modules/kohana-archive"]
+	path = modules/kohana-archive
+	url = git://github.com/BRMatt/kohana-archive.git
+[submodule "modules/ko3.tags"]
+	path = modules/ko3.tags
+	url = git://github.com/glydetech/ko3.tags.git
+[submodule "modules/kohana-geocode"]
+	path = modules/kohana-geocode
+	url = git://github.com/kolanos/kohana-geocode.git
+[submodule "modules/kohana-seo"]
+	path = modules/kohana-seo
+	url = git://github.com/glamorous/kohana-seo.git
+[submodule "modules/kohana-csrf"]
+	path = modules/kohana-csrf
+	url = git://github.com/synapsestudios/kohana-csrf.git
+[submodule "modules/kohana-errors"]
+	path = modules/kohana-errors
+	url = git://github.com/synapsestudios/kohana-errors.git
+[submodule "modules/kohana-notices"]
+	path = modules/kohana-notices
+	url = git://github.com/synapsestudios/kohana-notices.git
+[submodule "modules/kohana-debug"]
+	path = modules/kohana-debug
+	url = git://github.com/synapsestudios/kohana-debug.git
+[submodule "modules/kohana-ipsum"]
+	path = modules/kohana-ipsum
+	url = git://github.com/synapsestudios/kohana-ipsum.git
+[submodule "modules/Kohana_XML"]
+	path = modules/Kohana_XML
+	url = git://github.com/ccazette/Kohana_XML.git
+[submodule "modules/kohana-cdm"]
+	path = modules/kohana-cdm
+	url = git://github.com/jylinman/kohana-cdm.git
+[submodule "modules/kohana-aws"]
+	path = modules/kohana-aws
+	url = git://github.com/jylinman/kohana-aws.git
+[submodule "modules/kohana-amfphp"]
+	path = modules/kohana-amfphp
+	url = git://github.com/jylinman/kohana-amfphp.git
+[submodule "modules/kohana-dbnav"]
+	path = modules/kohana-dbnav
+	url = git://github.com/tayles/kohana-dbnav.git
+[submodule "modules/kohana-layout"]
+	path = modules/kohana-layout
+	url = git://github.com/marcalj/kohana-layout.git
+[submodule "modules/kohana-oauth"]
+	path = modules/kohana-oauth
+	url = git://github.com/mintbridge/kohana-oauth.git
+[submodule "modules/kohana-circuit-breaker"]
+	path = modules/kohana-circuit-breaker
+	url = git://github.com/samsoir/kohana-circuit-breaker.git
+[submodule "modules/kohana-stacks"]
+	path = modules/kohana-stacks
+	url = git://github.com/ahutchings/kohana-stacks.git
+[submodule "modules/Notify"]
+	path = modules/Notify
+	url = git://github.com/kaltar/Notify.git
+[submodule "modules/kohana-geshi"]
+	path = modules/kohana-geshi
+	url = git://github.com/JustLikeIcarus/kohana-geshi.git
+[submodule "modules/kohana-less"]
+	path = modules/kohana-less
+	url = git://github.com/mongeslani/kohana-less.git
+[submodule "modules/kohana_calendar"]
+	path = modules/kohana_calendar
+	url = git://github.com/samwilson/kohana_calendar.git
+[submodule "modules/kohana_webdb"]
+	path = modules/kohana_webdb
+	url = git://github.com/samwilson/kohana_webdb.git
+[submodule "modules/KOstache"]
+	path = modules/KOstache
+	url = git://github.com/zombor/KOstache.git
+[submodule "modules/kohana-sitemap"]
+	path = modules/kohana-sitemap
+	url = git://github.com/ThePixelDeveloper/kohana-sitemap.git
+[submodule "modules/Mailer"]
+	path = modules/Mailer
+	url = git://github.com/themusicman/Mailer.git
+[submodule "modules/Validation"]
+	path = modules/Validation
+	url = git://github.com/themusicman/Validation.git
+[submodule "modules/kohana-mssql"]
+	path = modules/kohana-mssql
+	url = git://github.com/xrado/kohana-mssql.git
+[submodule "modules/kohana-formo"]
+	path = modules/kohana-formo
+	url = git://github.com/bmidget/kohana-formo.git
+[submodule "modules/mongodb-php-odm"]
+	path = modules/mongodb-php-odm
+	url = git://github.com/colinmollenhour/mongodb-php-odm.git
+[submodule "modules/kohana-rbac"]
+	path = modules/kohana-rbac
+	url = git://github.com/lzyy/kohana-rbac.git
+[submodule "modules/Auto-Modeler"]
+	path = modules/Auto-Modeler
+	url = git://github.com/zombor/Auto-Modeler.git
+[submodule "modules/Webclient-Kohana"]
+	path = modules/Webclient-Kohana
+	url = git://github.com/SyrusAkbary/Webclient-Kohana.git
+[submodule "modules/kohana-postgresql"]
+	path = modules/kohana-postgresql
+	url = git://github.com/cbandy/kohana-postgresql.git
+[submodule "modules/kohana-pngtext"]
+	path = modules/kohana-pngtext
+	url = git://github.com/jheathco/kohana-pngtext.git
+[submodule "modules/kohana-formo-jelly"]
+	path = modules/kohana-formo-jelly
+	url = git://github.com/bmidget/kohana-formo-jelly.git
+[submodule "modules/Kohana-ORMForm"]
+	path = modules/Kohana-ORMForm
+	url = git://github.com/Azuka/Kohana-ORMForm.git
+[submodule "modules/kohana-media"]
+	path = modules/kohana-media
+	url = git://github.com/azampagl/kohana-media.git
+[submodule "modules/kohana-phamlp"]
+	path = modules/kohana-phamlp
+	url = git://github.com/fredwu/kohana-phamlp.git
+[submodule "modules/kohana-storage"]
+	path = modules/kohana-storage
+	url = git://github.com/cbandy/kohana-storage.git
+[submodule "modules/kohana-log"]
+	path = modules/kohana-log
+	url = git://github.com/lzyy/kohana-log.git
+[submodule "modules/kohana-jelly-torn"]
+	path = modules/kohana-jelly-torn
+	url = git://github.com/TdroL/kohana-jelly-torn.git
+[submodule "modules/kohana-gtasks"]
+	path = modules/kohana-gtasks
+	url = git://github.com/ahutchings/kohana-gtasks.git
+[submodule "modules/Kohana-Solr"]
+	path = modules/Kohana-Solr
+	url = git://github.com/Zoxive/Kohana-Solr.git
+[submodule "modules/kohana-charts"]
+	path = modules/kohana-charts
+	url = git://github.com/ae0000/kohana-charts.git
+[submodule "modules/kohana-search"]
+	path = modules/kohana-search
+	url = git://github.com/evopix/kohana-search.git
+[submodule "modules/kohana-affiliate"]
+	path = modules/kohana-affiliate
+	url = git://github.com/jeremeamia/kohana-affiliate.git
+[submodule "modules/kohana-blog"]
+	path = modules/kohana-blog
+	url = git://github.com/vimofthevine/kohana-blog.git
+[submodule "modules/core"]
+	path = modules/core
+	url = git://github.com/kohana/core.git
+[submodule "modules/kohana-yform"]
+	path = modules/kohana-yform
+	url = git://github.com/synapsestudios/kohana-yform.git
+[submodule "modules/kohana-zend"]
+	path = modules/kohana-zend
+	url = git://github.com/kolanos/kohana-zend.git
+[submodule "modules/Kohana-Facebook"]
+	path = modules/Kohana-Facebook
+	url = git://github.com/zombor/Kohana-Facebook.git
+[submodule "modules/kthrottler"]
+	path = modules/kthrottler
+	url = git://github.com/fredwu/kthrottler.git
+[submodule "modules/Kohana-depends"]
+	path = modules/Kohana-depends
+	url = git://github.com/slik/Kohana-depends.git
+[submodule "modules/Kohana-Codegen"]
+	path = modules/Kohana-Codegen
+	url = git://github.com/Yahasana/Kohana-Codegen.git
+[submodule "modules/ko3.xhtml"]
+	path = modules/ko3.xhtml
+	url = git://github.com/glydetech/ko3.xhtml.git
+[submodule "modules/kohana-facebook"]
+	path = modules/kohana-facebook
+	url = git://github.com/jeremyf76/kohana-facebook.git
+[submodule "modules/jellyform"]
+	path = modules/jellyform
+	url = git://github.com/mintbridge/jellyform.git
+[submodule "modules/kohana_multiformat"]
+	path = modules/kohana_multiformat
+	url = git://github.com/Lowgain/kohana_multiformat.git
+[submodule "modules/k"]
+	path = modules/k
+	url = git://github.com/birkir/kogit.git
+[submodule "modules/kohana-pigeon"]
+	path = modules/kohana-pigeon
+	url = git://github.com/loonies/kohana-pigeon.git
+[submodule "modules/kohana-notice"]
+	path = modules/kohana-notice
+	url = git://github.com/loonies/kohana-notice.git
+[submodule "modules/kohana-dblog"]
+	path = modules/kohana-dblog
+	url = git://github.com/b263/kohana-dblog.git
+[submodule "modules/minify-kohana"]
+	path = modules/minify-kohana
+	url = git://github.com/gahgneh/minify-kohana.git
+[submodule "modules/kohana-admin"]
+	path = modules/kohana-admin
+	url = git://github.com/vimofthevine/kohana-admin.git
+[submodule "modules/Kohana-Azimauth"]
+	path = modules/Kohana-Azimauth
+	url = git://github.com/tommusic/Kohana-Azimauth.git
